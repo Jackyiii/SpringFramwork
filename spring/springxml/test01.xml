@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--class 此对象权限定名 包名+class名-->
+<!--id 该对象唯一标识-->
+<!--bean 表示spring所管理的对象-->
+<!--property 为对象某个属性赋值-->
+
+    <bean class="com.example.spring.springCourse1.spring01.Person" id="test01">
+        <property name="name" value="property"></property>
+        <property name="score" value="1"></property>
+    </bean>
+
+    <bean class="com.example.spring.springCourse1.spring01.Person" id="test02" scope="singleton">
+        <property name="name" value="siglton"></property>
+        <property name="score" value="1"></property>
+    </bean>
+</beans>

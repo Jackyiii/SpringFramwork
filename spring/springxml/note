@@ -1,0 +1,3 @@
+IOC容器 控制反转和依赖注入是核心，IOC是思想，DI是实现方式
+控制反转意思是让Spring管理对象
+DI 依赖注入 Dependency Injection 依赖哪些对象就注入=赋值
